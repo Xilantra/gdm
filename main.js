@@ -1,6 +1,4 @@
 /*
-* SPOILER ALERT! 
-* WORDS FOR THE GAME ARE IN THIS FILE ;)
 * ©2014 Nate Wiley -- MIT License
 Sounds from http://soundfxnow.com, and http://www.soundjay.com
 */
@@ -237,8 +235,8 @@ Sounds from http://soundfxnow.com, and http://www.soundjay.com
 
 
     lose: function(){
-      this.msgTitle.html("No..<br>The answer is <span class='highlight'>"+ this.wrd.word +"</span>");
-      this.msgText.html("It's okay, perhaps it's time to learn more?");
+      this.msgTitle.html("Nope.<br>The answer is <span class='highlight'>"+ this.wrd.word +"</span>");
+      this.msgText.html("It's okay, perhaps it's time to read more.");
       this.showMsg();
       this.playSound("loseSound");
     }
