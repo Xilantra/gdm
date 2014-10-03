@@ -6,6 +6,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="author" content="Afiq Xilantra Azmi">
+        <meta name="description" content="A simple yet challenging guess word game based on graphic design">
+        <meta name="keyword" content="graphic design game">
+        <link rel="canonical" href="xilantra.github.io/gdm">
+        <!--Twitter-->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="xilantra">
+        <meta name="twitter:title" content="Graphic Design Master">
+        <meta name="twitter:description" content="A simple yet challenging guess word game based on graphic design">
+        <meta name="twitter:creator" content="xilantra">
+        <meta name="twitter:image:src" content="hero-img.png">
+        <meta name="twitter:domain" content="xilantra.github.io/gdm">
+        <!--Facebook-->
+        <meta property="fb:admins" content="100000276009842">     
+        <meta property="og:url" content="http://xilantra.github.io/gdm">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Graphic Design Master">
+        <meta property="og:image" content="hero-img.png"/>
+        <meta property="og:description" content="A simple yet challenging guess word game based on graphic design">
+        <meta property="og:site_name" content="Graphic Design Master">
+        <meta property="article:author" content="https://www.facebook.com/xilantra">
+        <meta property="article:publisher" content="https://www.facebook.com/xilantra">
+        <!--Google-->
+        <meta itemprop="name" content="Graphic Design Master">
+        <meta itemprop="description" content="A simple yet challenging guess word game based on graphic design">
+        <meta itemprop="image" content="hero-img.png">
+		<link rel="author" href="https://plus.google.com/+AfiqXilantra"/>	
+        
+        <link rel="shortcut icon" href="favicon.png">
 
   <script src="bower_components/platform/platform.js"></script>
 
@@ -17,7 +46,7 @@
   <link rel="import" href="bower_components/paper-input/paper-input.html">
   <link rel="import" href="bower_components/core-drawer-panel/core-drawer-panel.html">
 
-  <link rel="stylesheet" href="styles.css">
+  <style>body{font-family:Roboto,sans-serif;color:#4d4d4d;margin:0;overflow:auto;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none}section{margin:20px}a,a:hover{text-decoration:none}core-toolbar{background-color:#00AFE7;box-shadow:0 3px 2px rgba(0,0,0,.2);color:#fff;font-size:20px;font-weight:400;margin-bottom:1.5em}paper-icon-button{height:40px;width:40px;line-height:1}paper-input{font-size:x-large;max-width:200px;text-align:left;margin:0 auto}paper-button{margin:.5em 1em .5em 0;width:10em;padding:10px;font-weight:300;color:#7b7b7b}paper-button[raisedButton].colored{background:#00dbb9;color:#fff}paper-button[raisedButton].colored #ripple,paper-button[raisedButton].colored::shadow #ripple,paper-fab #ripple,paper-fab::shadow #ripple{color:#fff}paper-button[right]{position:fixed;bottom:45px}paper-toast{padding:10px;line-height:2}paper-fab{position:absolute!important;top:35px;right:1em;z-index:1}paper-fab.green{background:#00dbb9}[drawer]{background-color:rgba(255,255,255,.7);border-right:1px solid #ccc;padding:10px}h2{padding-bottom:10px;border-bottom:1px solid rgba(103,103,103,.15);color:currentColor}[main]{height:100%;overflow:auto}*{box-sizing:border-box}a{color:#53BDFF;text-decoration:none;font-size:14px}a:hover{color:#86d1ff}.tekelerr{font-family:Roboto,sans-serif;margin:20px auto;text-align:center;padding:10px}h1{font-size:50px;margin-bottom:20px;font-weight:600}p{margin-bottom:20px;color:gray;line-height:1.3}@keyframes letteranim{50%{transform:translateY(-5px) scale(1.05)}}.letter{float:left;color:transparent;border-bottom:5px solid #53BDFF;margin:0 10px;font-size:50px;padding:10px;transition:.5s;text-transform:uppercase}@media screen and (max-width:767px){.letter{font-size:30px}}.word{display:inline-block;margin:0 auto;padding-left:0!important;list-style:none}.correct{color:#53BDFF;text-shadow:1px 2px 0 #20a9ff;animation:letteranim .3s ease}.guessForm{margin:20px auto 0}.wrongLetters{font-size:20px;padding-left:0!important}.wrongLetters p{margin-bottom:10px}.wrongLetters li{margin-right:10px;margin-bottom:10px;display:inline-block;font-size:40px;background:#ff4d4d;border-radius:5px;text-shadow:1px 2px 0 red;padding:10px;color:#fff;text-transform:uppercase;animation:letteranim .3s ease}.message{display:none;padding:20px;position:absolute;left:0;right:0;bottom:0;width:100%;height:100%;background:rgba(255,255,255,.82);z-index:12402402}.message h1{display:none;color:#5a5a5a}.message .highlight{color:#ff1493;text-transform:capitalize}.message .text{color:#a0a0a0;font-size:30px;display:none}.message .text p{color:#fff}.message .text .highlight{font-size:40px}.message .muted{margin:20px auto;color:#86d1ff}.blur-bg{-webkit-filter:blur(6px) saturate(1.5) contrast(1.25);-moz-transform:scale(.93);-webkit-transform:scale(.93);-o-transform:scale(.93);-ms-transform:scale(.93);transform:scale(.93)}.icon-hero{height:50px;width:auto;margin:0 auto}</style>
 </head>
 
 <body unresolved>
@@ -310,9 +339,10 @@
       </paper-button>
     
         </div>
-  <script src="jq.js"></script>
-  <script src="jq.ui.js"></script>
-  <script src="main.js"></script>
-
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+  <script>
+  (function(e,t,n){Tekelerr={init:function(t){this.words=t,this.hm=e(".tekelerr"),this.msg=e(".message"),this.msgTitle=e(".title"),this.msgText=e(".text"),this.restart=e(".restart"),this.wrd=this.randomWord(),this.correct=0,this.guess=e(".guess"),this.wrong=e(".wrong"),this.wrongGuesses=[],this.rightGuesses=[],this.guessForm=e(".guessForm"),this.guessLetterInput=e(".guessLetter"),this.goodSound=new Audio("fx/goodbell.mp3"),this.badSound=new Audio("fx/bad.mp3"),this.winSound=new Audio("fx/win.mp3"),this.loseSound=new Audio("fx/lose.mp3"),this.setup()},setup:function(){this.binding();this.sounds();this.showGuess(this.wrongGuesses);this.showWrong()},sounds:function(){this.badSound.volume=.4;this.goodSound.volume=.4;this.winSound.volume=.8;this.loseSound.volume=.4},binding:function(){this.guessForm.on("click",e.proxy(this.theGuess,this));this.restart.on("click",e.proxy(this.theRestart,this))},playSound:function(e){this.stopSound(e);this[e].play()},stopSound:function(e){this[e].pause();this[e].currentTime=0},theRestart:function(e){e.preventDefault();this.stopSound("winSound");this.stopSound("loseSound");this.reset()},theGuess:function(t){t.preventDefault();var n=this.guessLetterInput.val();if(n.match(/[a-zA-Z]/)&&n.length==1){if(e.inArray(n,this.wrongGuesses)>-1||e.inArray(n,this.rightGuesses)>-1){this.playSound("badSound");this.guessLetterInput.val("").focus()}else if(n){var r=this.checkGuess(n);if(r.length>0){this.setLetters(r);this.playSound("goodSound");this.guessLetterInput.val("").focus()}else{this.wrongGuesses.push(n);if(this.wrongGuesses.length==10){this.lose()}else{this.showWrong(this.wrongGuesses);this.playSound("badSound")}this.guessLetterInput.val("").focus()}}}else{this.guessLetterInput.val("").focus()}},randomWord:function(){return this._wordData(this.words[Math.floor(Math.random()*this.words.length)])},showGuess:function(){var t="<ul class='word'>";e.each(this.wrd.letters,function(e,n){t+="<li data-pos='"+e+"' class='letter'>*</li>"});t+="</ul>";this.guess.html(t)},showWrong:function(t){if(t){var n="<ul class='wrongLetters'>";n+="<p>Nope: </p>";e.each(t,function(e,t){n+="<li>"+t+"</li>"});n+="</ul>"}else{n=""}this.wrong.html(n)},checkGuess:function(t){var n=this;var r=[];e.each(this.wrd.letters,function(e,i){if(t==i.letter.toLowerCase()){r.push(i);n.rightGuesses.push(i.letter)}});return r},setLetters:function(t){var n=this;n.correct=n.correct+=t.length;e.each(t,function(t,r){var i=e("li[data-pos="+r.pos+"]");i.html(r.letter);i.addClass("correct");if(n.correct==n.wrd.letters.length){n.win()}})},_wordData:function(e){return{letters:this._letters(e),word:e.toLowerCase(),totalLetters:e.length}},hideMsg:function(){this.msg.hide();this.msgTitle.hide();this.restart.hide();this.msgText.hide();e("core-drawer-panel").removeClass("blur-bg")},showMsg:function(){var t=this;e("core-drawer-panel").addClass("blur-bg");t.msg.show("blind",function(){t.msgTitle.show("bounce","slow",function(){t.msgText.show("slide",function(){t.restart.show("fade")})})})},reset:function(){this.hideMsg();this.init(this.words);this.hm.find(".guessLetter").focus()},_letters:function(e){var t=[];for(var n=0;n<e.length;n++){t.push({letter:e[n],pos:n})}return t},rating:function(){var e=this.rightGuesses.length,t=this.wrongGuesses.length||0,n={rating:Math.floor(e/(t+e)*100),guesses:e+t};return n},win:function(){var e=this.rating();this.msgTitle.html("Brilliant! A true artist!");this.msgText.html("Good job, Massimo Vignelli must be proud of you because you solved it in <span class='highlight'>"+e.guesses+"</span> guesses!<br><small>Your design level: <span class='highlight'>"+e.rating+"%</span><small>");this.showMsg();this.playSound("winSound")},lose:function(){this.msgTitle.html("Nope.<br>The answer is <span class='highlight'>"+this.wrd.word+"</span>");this.msgText.html("It's okay, perhaps it's time to read more.");this.showMsg();this.playSound("loseSound")}};var r=["visual","proof","magazine","digital","text","images","coffee","inspiration","print","palette","layout","layer","wireframe","mockup","designer","bleed","postcard","banner","creative","drawing","color","illustration","block","alignment","header","typography","responsive","justified","css","border","serif","helvetica","pixel","retina","typeface","copyfitting","kerning","leading","margin","dpi","pattern","raster","vector","photoshop","sketch","illustrator","cmyk","rgb","art","logo","gaussian","radial","icon","symmetri","asymmetric","motion","shape","flash","crosshatch","font","identity","branding","favicon","monochrome","gradient","bauhaus","victorian","futurism","swiss","psychedelic","minimalism","advertising","copywriting","portfolio","commercial","critique","storyboard","geometry","figure","pencil","aiga","pastel","deepskyblue","template","watercolor","smudge","lithography","doctype","gestalt","webgl","canvas","interface","animation"];Tekelerr.init(r)})(jQuery,window)  
+  </script>
 </body>
 </html>

@@ -1,4 +1,9 @@
 /*
+* ©2014 Afiq Xilantra
+* http://afiq.me
+* Graphic Design Master.js
+*/
+/*
 * ©2014 Nate Wiley -- MIT License
 Sounds from http://soundfxnow.com, and http://www.soundjay.com
 */
@@ -20,10 +25,10 @@ Sounds from http://soundfxnow.com, and http://www.soundjay.com
       this.rightGuesses = [],
       this.guessForm = $(".guessForm"),
       this.guessLetterInput = $(".guessLetter"),
-      this.goodSound = new Audio("fx/goodbell.mp3"),
-      this.badSound = new Audio("fx/bad.mp3"),
-      this.winSound = new Audio("fx/win.mp3"),
-      this.loseSound = new Audio("fx/lose.mp3"),
+      this.goodSound = new Audio("assets/fx/goodbell.mp3"),
+      this.badSound = new Audio("assets/fx/bad.mp3"),
+      this.winSound = new Audio("assets/fx/win.mp3"),
+      this.loseSound = new Audio("assets/fx/lose.mp3"),
       this.setup();
     },
 
