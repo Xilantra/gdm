@@ -162,3 +162,13 @@ polyfill-next-selector { content: ':host .narrow-layout > #main > [main]'; }
 -o-transform: scale(.93);
 -ms-transform: scale(.93);
 transform: scale(.93);}
+
+@media screen and (min-width: 767px) {
+ #main:not(.core-selected) {
+ -webkit-filter: none;
+-moz-transform: none;
+-webkit-transform: none;
+-o-transform: none;
+-ms-transform: none;
+transform: none;
+}
